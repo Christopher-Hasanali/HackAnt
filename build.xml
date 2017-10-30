@@ -48,4 +48,9 @@
     <!-- Default, run this -->
     <target name="release" depends="clean, compile, jar" />
 
+    <!-- run application -->
+    <target name="run" depends="release">
+        <java jar="${dist.dir}/${projectName}.jar" fork="true"/>
+    </target>
+
 </project>
