@@ -1,3 +1,3 @@
 Steps:
-1) ant
-2) java -jar jar/HelloWorldApplication.jar
+1) Go to root of this workspace in terminal/command line
+2) ant run
